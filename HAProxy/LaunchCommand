@@ -1,0 +1,4 @@
+
+Docker Comand to lanch Haproxy, stats avalible on port 81 as described in the configuration file
+
+docker run -p 80:80 -p 81:81 --name haproxy1 -v /path/to/etc/haproxy:/usr/local/etc/haproxy:ro  haproxy
